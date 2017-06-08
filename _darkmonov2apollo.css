@@ -488,10 +488,10 @@ li.graph .center_poll { display: block; height: 7px; border: 1px solid #4d7189; 
 td.center { width: 25px; }
 
 #musicbrainz_popup {
-    background: #222 url(https://i.imgur.com/18h8U1p.png) repeat;
-    border: 2px solid #313131;
+    background: #222 url(https://i.imgur.com/18h8U1p.png) repeat !important;
+    border: 2px solid #313131 !important;
 }
 
 #musicbrainz_popup h2 {
-    border-bottom: 1px dotted #313131;
+    border-bottom: 1px dotted #313131 !important;
 }
