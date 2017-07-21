@@ -121,7 +121,40 @@ h3#irc+.box.pad ul li:last-child,h3#general+.box.pad ul li:last-child { margin-b
 #lightbox img { max-width: 90%; max-height: 90%; border: 5px solid #3b3b3b; }
 #logchecker textarea#log_contents { margin: 0 !important; height: 100px; width: 757px; }
 #logchecker blockquote h2 { margin-bottom: 0px; }
-#logo a { position: absolute; clip: rect(0px, 240px, 300px, 150px); top: 0; left: 0; z-index: 5; margin: -20px 0 0 -128px; padding: 0; width: 488.57px; height: 74.29px; transform: scale(0.35, 0.35); background: url("https://i.imgur.com/mqGnIIP.png") no-repeat; transition-property: background; transition-timing-function: linear; transition: 0.25s; }
+
+#logo a { 
+	position: absolute;
+	clip: rect(0px, 240px, 300px, 150px);
+	top: 0;
+	left: 0;
+	z-index: 5;
+	margin: -20px 0 0 -128px;
+	padding: 0;
+	width: 488.57px;
+	height: 74.29px;
+	-webkit-transform: scale(0.35, 0.35);
+	-moz-transform: scale(0.35, 0.35);
+	-ms-transform: scale(0.35, 0.35);
+	-o-transform: scale(0.35, 0.35);
+	transform: scale(0.35, 0.35);
+	background: url("https://i.imgur.com/mqGnIIP.png") no-repeat;
+	-webkit-transition-property: background;
+	-moz-transition-property: background;
+	-ms-transition-property: background;
+	-o-transition-property: background;
+	transition-property: background;
+	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
+	-ms-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-ms-transition: 0.25s;
+	-o-transition: 0.25s;
+	transition: 0.25s;
+}
+
 #logo a:hover {clip: rect(0px, 500px, 300px, 0px); }
 #menu { position: absolute; top: 0; right: 0; width: 100%; height: 35px; text-align: right; text-transform: uppercase; text-shadow: 0.1em 0.1em rgba(0,0,0,0.5); font-weight: bold; }
 #menu a, #userinfo_stats a, .tags a:hover, .search_form { color: #9A9A9A; }
