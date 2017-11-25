@@ -528,3 +528,12 @@ td.center { width: 25px; }
 #musicbrainz_popup h2 {
     border-bottom: 1px dotted #313131 !important;
 }
+
+
+
+
+
+/* Bonus Points Shop */
+#bonus .thin tbody { background-color: rgba(100,100,100,0.15); }
+#bonus .thin { width: 1000px; margin: 0px auto; }
+#bonus table { width: 100%; }
