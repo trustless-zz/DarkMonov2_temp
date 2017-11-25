@@ -534,6 +534,6 @@ td.center { width: 25px; }
 
 
 /* Bonus Points Shop */
-#bonus .thin tbody { background-color: rgba(100,100,100,0.15); }
+#bonus tbody {background-color: rgba(100,100,100,0.15);}
 #bonus .thin { width: 1000px; margin: 0px auto; }
 #bonus table { width: 100%; }
