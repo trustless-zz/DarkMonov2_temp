@@ -544,7 +544,7 @@ td.center { width: 25px; }
 #contest .thin {width: 1000px; margin: 0px auto;}
 #contest table {width: 100%;}
 #contest h1 {font-size: 14pt; line-height: 16pt; margin-bottom: 20px;}
-#contest .box.pad {/* padding: 10px 10px 10px 20px; */}
+#contest .box.pad {padding: 0px 0px 10px 0px !important;}
 #contest td.label {
     margin: -10px;
     margin-bottom: 10px;
@@ -557,3 +557,5 @@ td.center { width: 25px; }
     text-shadow: 0.1em 0.1em rgba(0,0,0,0.5);
     font-weight: bold;
 }
+table {width: 100%;} /* -front page contest leaderboard fix */
+#contest p {margin-top: 10px;}
