@@ -538,13 +538,14 @@ td.center { width: 25px; }
 #bonus .thin {width: 1000px; margin: 0px auto;}
 #bonus table {width: 100%;}
 #bonus h2 {/* margin-bottom: 20px; */;}
+/* /Bonus Points Shop */
 
 /* Contest */
-#contest tbody {background-color: rgba(100,100,100,0.15);}
+/* #contest tbody {background-color: rgba(100,100,100,0.15);} (*) */
 #contest .thin {width: 1000px; margin: 0px auto;}
 #contest table {width: 100%;}
 #contest h1 {font-size: 14pt; line-height: 16pt; margin-bottom: 20px;}
-#contest .box.pad {padding: 0px 0px 10px 0px !important;}
+#contest .box.pad {padding: 0px 0px 10px 0px !important; background-color: rgba(100,100,100,0.15);} /* (*) Currently 'contest.php?action=leaderboard' while having its own (tbody), is also sharing a background (class="box pad") with 'contest.php', as a result attempting to add margin to the 'contest.php' will fuck up 'contest.php?action=leaderboard', same goes for exluding '#contest p' from background on 'contest.php?action=leaderboard'. Either way at the moment I don't see a way to make them both look properly at the same time. So this will have to do. */
 #contest td.label {
     margin: -10px;
     margin-bottom: 10px;
@@ -558,4 +559,5 @@ td.center { width: 25px; }
     font-weight: bold;
 }
 table {width: 100%;} /* -front page contest leaderboard fix */
-#contest p {margin-top: 10px;}
+#contest p {margin: 10px 0px 0px 10px;}
+/* /Contest */
