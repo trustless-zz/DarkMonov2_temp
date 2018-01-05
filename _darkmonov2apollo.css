@@ -557,6 +557,8 @@ td.center { width: 25px; }
     background-image: linear-gradient(to bottom, #333333, #181818);
     text-shadow: 0.1em 0.1em rgba(0,0,0,0.5);
     font-weight: bold;
+    width: auto;
+    text-align: center;
 }
 table {width: 100%;} /* -front page contest leaderboard fix */
 #contest p {margin: 10px 0px 0px 10px;}
