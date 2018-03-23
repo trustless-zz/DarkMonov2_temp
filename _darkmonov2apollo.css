@@ -541,15 +541,16 @@ td.center { width: 25px; }
 /* /Bonus Points Shop */
 
 /* Contest */
-/* #contest tbody {background-color: rgba(100,100,100,0.15);} (*) */
+#contest tbody {background-color: rgba(100,100,100,0.15);}
 #contest .thin {width: 1000px; margin: 0px auto;}
 #contest table {width: 100%;}
 #contest h1 {font-size: 14pt; line-height: 16pt; margin-bottom: 20px;}
-#contest .box.pad {padding: 0px 0px 10px 0px !important; background-color: rgba(100,100,100,0.15);} /* (*) Currently 'contest.php?action=leaderboard' while having its own (tbody), is also sharing a background (class="box pad") with 'contest.php', as a result attempting to add margin to the 'contest.php' will fuck up 'contest.php?action=leaderboard', same goes for exluding '#contest p' from background on 'contest.php?action=leaderboard'. Either way at the moment I don't see a way to make them both look properly at the same time. So this will have to do. */
+#contest .box.pad[style="padding: 10px 10px 10px 20px;"] {padding: 0px 0px 10px 0px !important; background-color: transparent !important;}
+#contest .box.pad {padding: 10px 10px 10px 20px !important; background-color: rgba(100,100,100,0.15);}
 #contest td.label {
     margin: -10px;
     margin-bottom: 10px;
-    padding: 8px 10px !important;
+    padding: 8px 10px 9px 10px !important;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#181818));
     background-image: -webkit-linear-gradient(top, #333333, #181818);
     background-image: -moz-linear-gradient(top, #333333, #181818);
@@ -559,6 +560,7 @@ td.center { width: 25px; }
     font-weight: bold;
     width: auto;
     text-align: left;
+    white-space: nowrap;
 }
 table {width: 100%;} /* -front page contest leaderboard fix */
 #contest p {margin-top: 10px; text-align: center;}
