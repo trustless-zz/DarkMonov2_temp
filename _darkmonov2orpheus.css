@@ -563,3 +563,5 @@ table {width: 100%;} /* -front page contest leaderboard fix */
 #contest p {margin-top: 10px; text-align: center;}
 #contest .head h3 {text-align: center; margin-bottom: 2px;}
 /* /Contest */
+
+.last_edited {border-top: 1px solid #3b3b3b;}
