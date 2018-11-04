@@ -124,20 +124,17 @@ h3#irc+.box.pad ul li:last-child,h3#general+.box.pad ul li:last-child { margin-b
 
 #logo a { 
 	position: absolute;
-	clip: rect(0px, 240px, 300px, 150px);
+	clip: rect(0px, 35px, 300px, 0px);
 	top: 0;
 	left: 0;
 	z-index: 5;
-	margin: -20px 0 0 -128px;
+	margin: 4px 0 0 0px;
 	padding: 0;
-	width: 488.57px;
-	height: 74.29px;
-	-webkit-transform: scale(0.35, 0.35);
-	-moz-transform: scale(0.35, 0.35);
-	-ms-transform: scale(0.35, 0.35);
-	-o-transform: scale(0.35, 0.35);
-	transform: scale(0.35, 0.35);
-	background: url("resources/logo.svg") no-repeat;
+	width: 115px;
+	height: 26px;
+	background: url("resources/logo3.svg") no-repeat;
+	background-repeat: no-repeat;
+	background-position: left center;
 	-webkit-transition-property: background;
 	-moz-transition-property: background;
 	-ms-transition-property: background;
