@@ -557,11 +557,11 @@ td.center { width: 25px; }
     font-weight: bold;
     width: auto;
     text-align: left;
-    white-space: nowrap;
-}
+    white-space: nowrap;}
 table {width: 100%;} /* -front page contest leaderboard fix */
 #contest p {margin-top: 10px; text-align: center;}
 #contest .head h3 {text-align: center; margin-bottom: 2px;}
 /* /Contest */
 
 .last_edited {border-top: 1px solid #3b3b3b;}
+.avatar_container > div {width: inherit;} /* -global.css messes with avatar container width */
