@@ -564,4 +564,7 @@ table {width: 100%;} /* -front page contest leaderboard fix */
 /* /Contest */
 
 .last_edited {border-top: 1px solid #3b3b3b;}
-.avatar_container > div {width: inherit;} /* -global.css messes with avatar container width */
+
+/* global.css messes with avatar container */
+.avatar_container > div {width: inherit;}
+#user .avatar_container > div {margin: inherit !important;}
