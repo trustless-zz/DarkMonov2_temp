@@ -117,8 +117,8 @@ h3#irc+.box.pad ul li:last-child,h3#general+.box.pad ul li:last-child { margin-b
 #inbox .manage_form .layout td { padding-top: 10px; border: none; }
 #inbox .manage_form .layout td.label, #requests .box.box_votes td:nth-child(2), .thin>h2+div>form table td.label,.thin>h2+.linkbox+div form table td.label,.filter_torrents td.label, #requests tbody tr td.label, #requests .thin .search_form tr#release_list td.label, #collage .thin .search_form tr td.label, #logchecker .thin.center .border td.label, #upload #upload_table.create_form #dynamic_form table tbody td:first-child, #userform.edit_form .layout td.label { text-align: right; }
 #inbox .thin #searchbox.search_form div input:last-child, #index .sidebar #merchbox.box div.center.pad, #index .sidebar .box div.center.pad:last-child, #reports .box.pad ul+p, #inbox input[value="Manage conversation"], #artistfields input[id="artist"]:nth-child(n+1), .artists_with, .preview_submit, #answer_block input:nth-child(n+2) { margin-top: 5px; }
-#lightbox { position: fixed; top: 5%; left: 5%; z-index: 1000; overflow: auto; padding: 0; max-width: 90%; max-height: 90%; text-align: center; }
-#lightbox img { max-width: 90%; max-height: 90%; border: 5px solid #3b3b3b; }
+#lightbox { position: fixed; text-align: center; top: 5%; left: 5%; width: 90%; height: 90%; padding: 0; z-index: 1000; overflow: visible; }
+#lightbox img { max-height: 100%; max-width: 100%; border: 5px solid #3b3b3b; }
 #logchecker textarea#log_contents { margin: 0 !important; height: 100px; width: 757px; }
 #logchecker blockquote h2 { margin-bottom: 0px; }
 
