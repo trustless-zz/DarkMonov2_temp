@@ -320,6 +320,7 @@ input:focus, textarea:focus { outline: 0 !important; border: 1px solid #4d7189 !
 input[value="Make Default"] { float: right; margin-right: 5px; }
 input#styleurl { width: 435px; }
 #user input[type="url"] { width: 513px; }
+#bonus tr:hover, /* bonus page tr:hover fix */
 tr.rowa:nth-child(n+2):hover, tr.rowb:nth-child(n+2):hover, #better tr:hover, tr.group_torrent:hover, #torrent_table tr.group:hover, #torrents .thin>table tr:nth-child(n+2):hover, #torrent_table tr.torrent:hover, #discog_table tr.discog:hover, #torrents_album tr.group:hover, #userhistory tr.group.discog:hover, .collage_table tr:nth-child(n+2):hover , .torrent_row:hover { background-color: rgba(50,50,50,0.2); }
 tr#release_list td>input[type="checkbox"], tr#format_list td>input[type="checkbox"], tr#bitrate_list td>input[type="checkbox"], tr#media_list td>input[type="checkbox"] { margin: 2px; }
 td:last-child { border-right: none; border-bottom: none; }
@@ -551,7 +552,7 @@ td.center { width: 25px; }
 #bonus tbody {background-color: rgba(100,100,100,0.15);}
 #bonus .thin {width: 1000px; margin: 0px auto;}
 #bonus table {width: 100%;}
-#bonus h2 {/* margin-bottom: 20px; */;}
+#user #fl_form li:last-child {text-align: center; margin-top: 10px;}
 /* /Bonus Points Shop */
 
 /* Contest */
