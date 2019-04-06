@@ -553,6 +553,7 @@ td.center { width: 25px; }
 #bonus .thin {width: 1000px; margin: 0px auto;}
 #bonus table {width: 100%;}
 #user #fl_form li:last-child {text-align: center; margin-top: 10px;}
+#bonus td:not(:first-child) {white-space: nowrap;}
 /* /Bonus Points Shop */
 
 /* Contest */
