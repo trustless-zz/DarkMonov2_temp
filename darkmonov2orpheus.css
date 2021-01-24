@@ -363,6 +363,7 @@ li.graph .center_poll { display: block; height: 7px; border: 1px solid #4d7189; 
 .autocomplete-suggestions { background-color: rgba(32,32,32,0.85); -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.1); box-shadow: 0 2px 3px rgba(0,0,0,0.1); border: 1px solid #3B3B3B; }
 .autocomplete-selected { background-color: rgba(100,100,100,0.2); }
 .autocomplete-suggestions strong { color: #528ba3; }
+#friends .avatar_container img,
 .avatar { max-width: 120px; }
 .bbcodes button { float: none !important; overflow: hidden; margin-top: 5px; width: 20px; height: 20px; border: 1px solid #1D1D1D !important; background-color: rgba(100, 100, 100, 0.6) !important; -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15),inset -1px 1px 0 rgba(255,255,255,0.12); box-shadow: 0 1px 2px rgba(0,0,0,0.15),inset -1px 1px 0 rgba(255,255,255,0.12); color: #999 !important; text-shadow: none !important; font-size: 8pt; cursor: pointer; }
 .bbcodes { padding: 2px !important; }
@@ -393,7 +394,7 @@ li.graph .center_poll { display: block; height: 7px; border: 1px solid #4d7189; 
 .filter_torrents .submit span:after { content: ")"; }
 .forum_post li, .main_column li { margin-left: 15px; }
 .forum_post.box.vertical_margin div[style="float:right;"] input:nth-child(n+1), .box_tags .stats.nobullet div>a+a { margin-left: 3px; }
-.forum_post .avatar, #friends .friends_table td:first-child { padding: 10px; width: 100px !important; background-color: rgba(0,0,0,0.12); }
+.forum_post .avatar, #friends .friends_table td:first-child { padding: 10px; width: 120px !important; background-color: rgba(0,0,0,0.12); }
 .forum_post .body { padding: 15px; }
 #forums .forum_post form textarea { width: 804px; }
 .forum_unread tr.colhead_dark td { background-image: -webkit-gradient(linear, left top, left bottom, from(#361c34), to(#191919)) !important; background-image: -webkit-linear-gradient(top, #361c34, #191919) !important; background-image: -moz-linear-gradient(top, #361c34, #191919) !important; background-image: -o-linear-gradient(top, #361c34, #191919) !important; background-image: linear-gradient(top bottom, #361c34, #191919) !important; }
@@ -585,6 +586,9 @@ table {width: 100%;} /* -front page contest leaderboard fix */
 
 .last_edited {border-top: 1px solid #3b3b3b;}
 
-/* global.css messes with avatar container */
-.avatar_container > div {width: inherit;}
-#user .avatar_container > div {margin: inherit !important;}
+/* global.css messes with avatar container / double div avatar fix */
+#friends .avatar_container:hover>:last-child,
+#friends .avatar_container>:last-child,
+.forum_post .avatar_container:hover>:last-child,
+.forum_post .avatar_container>:last-child {
+    margin-right: 0;}
